@@ -7,9 +7,70 @@
 }
 
 body {
-  background-color: #fff;
+  background: radial-gradient(134.34% 134.34% at 50% 0%, #1F3757 0%, #131537 100%);
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  padding: 50px 0;
+  font-family: sans-serif;
 }
 
+.score-wrapper{
+  margin: auto auto;
+  width: 700px;
+  border: 3px solid rgba(255, 255, 255, 0.289199);
+  border-radius: 15px;
+  margin-bottom: 110px;
+}
+.inner-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 25px;
+}
+.rock-title{
+  width: 155px;
+  color: #fff;
+  font-size: 27px;
+}
+.score-info{
+  background-color: #fff;
+  padding: 16px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+}
+.score-title {
+  color: #2a45c2;
+  font-size: 16px;
+  letter-spacing: 2.5px;
+}
+.score-number {
+  color: #565468;
+  font-size: 64px;
+  font-weight: bold;
+}
+.hand-btn{
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  cursor: pointer;
+}
+.btn-wrapper{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 476px;
+}
+.hand-btn-first{
+  left: -5px;
+  top: -85px;
+}
+.hand-btn-second{
+  top: -85px;
+  right: 4px;
+}
+.hand-btn-third{
+  bottom: -68px;
+  right: 146.5px;
+}
